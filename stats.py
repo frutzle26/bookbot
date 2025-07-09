@@ -1,5 +1,3 @@
-import sys
-
 def word_count(path_to_book):
     with open(path_to_book) as f:
         words = f.read()
